@@ -1,0 +1,902 @@
+[
+ {
+  "stationid": 1,
+  "city": "Resita",
+  "temperature": 21.712895211145756,
+  "rain_procentage": 44.24944572063876,
+  "wind_speed": 56.070022325143995,
+  "wind_direction": "NE",
+  "date": "01/06/2022"
+ },
+ {
+  "stationid": 2,
+  "city": "Bacau",
+  "temperature": 18.905057850460395,
+  "rain_procentage": 22.318163216672936,
+  "wind_speed": 33.458913590036296,
+  "wind_direction": "NE",
+  "date": "08/03/2022"
+ },
+ {
+  "stationid": 3,
+  "city": "Sibiu",
+  "temperature": -3.1434821242236595,
+  "rain_procentage": 42.535069448876364,
+  "wind_speed": 70.28330486486756,
+  "wind_direction": "E",
+  "date": "10/14/2022"
+ },
+ {
+  "stationid": 4,
+  "city": "Slobozia",
+  "temperature": 7.646660909258866,
+  "rain_procentage": 84.47217329807047,
+  "wind_speed": 36.30861617407334,
+  "wind_direction": "S",
+  "date": "05/11/2022"
+ },
+ {
+  "stationid": 5,
+  "city": "Resita",
+  "temperature": 7.49205447983444,
+  "rain_procentage": 70.72535248973449,
+  "wind_speed": 1.540690991311573,
+  "wind_direction": "E",
+  "date": "04/17/2022"
+ },
+ {
+  "stationid": 6,
+  "city": "Satu Mare",
+  "temperature": 29.08183831851786,
+  "rain_procentage": 84.97646203632473,
+  "wind_speed": 9.994273333684092,
+  "wind_direction": "W",
+  "date": "07/29/2022"
+ },
+ {
+  "stationid": 7,
+  "city": "Botosani",
+  "temperature": 6.030648732810533,
+  "rain_procentage": 77.67587649451605,
+  "wind_speed": 2.1473985939427642,
+  "wind_direction": "SE",
+  "date": "09/01/2022"
+ },
+ {
+  "stationid": 8,
+  "city": "Bacau",
+  "temperature": -2.3368109700435475,
+  "rain_procentage": 72.34761355224015,
+  "wind_speed": 74.79463672849867,
+  "wind_direction": "E",
+  "date": "12/26/2022"
+ },
+ {
+  "stationid": 9,
+  "city": "Bistrita",
+  "temperature": 5.789632633164896,
+  "rain_procentage": 69.24973080400437,
+  "wind_speed": 54.59111559027558,
+  "wind_direction": "NE",
+  "date": "03/03/2022"
+ },
+ {
+  "stationid": 10,
+  "city": "Alba Iulia",
+  "temperature": -4.144971636024831,
+  "rain_procentage": 84.84288023946111,
+  "wind_speed": 27.726281595507352,
+  "wind_direction": "NW",
+  "date": "10/07/2022"
+ },
+ {
+  "stationid": 11,
+  "city": "Baia Mare",
+  "temperature": 9.774389138964445,
+  "rain_procentage": 74.25278326836427,
+  "wind_speed": 44.43271925142115,
+  "wind_direction": "SW",
+  "date": "12/16/2022"
+ },
+ {
+  "stationid": 12,
+  "city": "Tulcea",
+  "temperature": -18.988311494759916,
+  "rain_procentage": 33.77699944957293,
+  "wind_speed": 26.445506133207807,
+  "wind_direction": "NW",
+  "date": "11/10/2022"
+ },
+ {
+  "stationid": 13,
+  "city": "Bistrita",
+  "temperature": -1.7969412191866496,
+  "rain_procentage": 86.0284198337287,
+  "wind_speed": 43.89104666957132,
+  "wind_direction": "W",
+  "date": "11/10/2022"
+ },
+ {
+  "stationid": 14,
+  "city": "Suceava",
+  "temperature": 24.708960291817753,
+  "rain_procentage": 55.28939394307284,
+  "wind_speed": 55.14614999832688,
+  "wind_direction": "SE",
+  "date": "11/28/2022"
+ },
+ {
+  "stationid": 15,
+  "city": "Targu Jiu",
+  "temperature": -8.48084276488702,
+  "rain_procentage": 77.37007886862396,
+  "wind_speed": 59.60159153440978,
+  "wind_direction": "SE",
+  "date": "02/25/2022"
+ },
+ {
+  "stationid": 16,
+  "city": "Suceava",
+  "temperature": 10.852238995551392,
+  "rain_procentage": 32.31528190273407,
+  "wind_speed": 23.88336030155085,
+  "wind_direction": "SW",
+  "date": "12/31/2022"
+ },
+ {
+  "stationid": 17,
+  "city": "Ploiesti",
+  "temperature": 23.747863567369457,
+  "rain_procentage": 5.233672623717823,
+  "wind_speed": 28.39239346437724,
+  "wind_direction": "NE",
+  "date": "12/15/2022"
+ },
+ {
+  "stationid": 18,
+  "city": "Zalau",
+  "temperature": 10.080780776938884,
+  "rain_procentage": 99.9763253441864,
+  "wind_speed": 9.311614776101562,
+  "wind_direction": "NW",
+  "date": "12/09/2022"
+ },
+ {
+  "stationid": 19,
+  "city": "Satu Mare",
+  "temperature": 28.32347014928117,
+  "rain_procentage": 57.209719122997384,
+  "wind_speed": 39.61946792512799,
+  "wind_direction": "SW",
+  "date": "06/19/2022"
+ },
+ {
+  "stationid": 20,
+  "city": "Targu Jiu",
+  "temperature": -0.19187885923633985,
+  "rain_procentage": 15.552489262511692,
+  "wind_speed": 24.495911946662492,
+  "wind_direction": "W",
+  "date": "12/26/2022"
+ },
+ {
+  "stationid": 21,
+  "city": "Alexandria",
+  "temperature": 32.495465834262596,
+  "rain_procentage": 97.60428050968567,
+  "wind_speed": 14.387198188642039,
+  "wind_direction": "NE",
+  "date": "07/02/2022"
+ },
+ {
+  "stationid": 22,
+  "city": "Calarasi",
+  "temperature": -9.354365161028971,
+  "rain_procentage": 77.39273175156505,
+  "wind_speed": 69.04278596079776,
+  "wind_direction": "SE",
+  "date": "08/19/2022"
+ },
+ {
+  "stationid": 23,
+  "city": "Ramnicu Valcea",
+  "temperature": -13.117354382786392,
+  "rain_procentage": 80.72028583120564,
+  "wind_speed": 1.4263173753573977,
+  "wind_direction": "S",
+  "date": "03/22/2022"
+ },
+ {
+  "stationid": 24,
+  "city": "Ploiesti",
+  "temperature": 32.18747216468087,
+  "rain_procentage": 62.466873936764244,
+  "wind_speed": 54.242626899407256,
+  "wind_direction": "W",
+  "date": "05/27/2022"
+ },
+ {
+  "stationid": 25,
+  "city": "Suceava",
+  "temperature": 33.15713734164497,
+  "rain_procentage": 40.059194946859414,
+  "wind_speed": 73.7472951923258,
+  "wind_direction": "SE",
+  "date": "07/13/2022"
+ },
+ {
+  "stationid": 26,
+  "city": "Bucuresti",
+  "temperature": 2.196575186753133,
+  "rain_procentage": 80.3081138466211,
+  "wind_speed": 7.2364247332753,
+  "wind_direction": "NW",
+  "date": "06/28/2022"
+ },
+ {
+  "stationid": 27,
+  "city": "Targoviste",
+  "temperature": -11.989675244348959,
+  "rain_procentage": 65.31905901852649,
+  "wind_speed": 32.90947939161634,
+  "wind_direction": "N",
+  "date": "07/10/2022"
+ },
+ {
+  "stationid": 28,
+  "city": "Zalau",
+  "temperature": -17.677896178964353,
+  "rain_procentage": 20.0222350767018,
+  "wind_speed": 21.678224575005906,
+  "wind_direction": "NW",
+  "date": "01/30/2022"
+ },
+ {
+  "stationid": 29,
+  "city": "Bucuresti",
+  "temperature": 33.60392610229663,
+  "rain_procentage": 31.22317576509108,
+  "wind_speed": 3.174319239796519,
+  "wind_direction": "N",
+  "date": "05/10/2022"
+ },
+ {
+  "stationid": 30,
+  "city": "Baia Mare",
+  "temperature": 2.577215872871818,
+  "rain_procentage": 39.363587092338015,
+  "wind_speed": 67.02066024661497,
+  "wind_direction": "E",
+  "date": "10/21/2022"
+ },
+ {
+  "stationid": 31,
+  "city": "Piatra Neamt",
+  "temperature": -1.7856045537482927,
+  "rain_procentage": 69.11678990253024,
+  "wind_speed": 14.104799323092614,
+  "wind_direction": "SW",
+  "date": "10/09/2022"
+ },
+ {
+  "stationid": 32,
+  "city": "Iasi",
+  "temperature": -3.0191677055070905,
+  "rain_procentage": 53.404770409842165,
+  "wind_speed": 65.22927628729134,
+  "wind_direction": "SE",
+  "date": "07/19/2022"
+ },
+ {
+  "stationid": 33,
+  "city": "Piatra Neamt",
+  "temperature": -11.25359365243237,
+  "rain_procentage": 30.211041353510005,
+  "wind_speed": 67.36440321075159,
+  "wind_direction": "SE",
+  "date": "08/13/2022"
+ },
+ {
+  "stationid": 34,
+  "city": "Ploiesti",
+  "temperature": -17.237875541103968,
+  "rain_procentage": 18.78583967768338,
+  "wind_speed": 79.2313640576104,
+  "wind_direction": "NW",
+  "date": "10/20/2022"
+ },
+ {
+  "stationid": 35,
+  "city": "Timisoara",
+  "temperature": 14.26481362913686,
+  "rain_procentage": 57.74519184780071,
+  "wind_speed": 55.71197210183893,
+  "wind_direction": "S",
+  "date": "12/20/2022"
+ },
+ {
+  "stationid": 36,
+  "city": "Brasov",
+  "temperature": -0.9977280574048102,
+  "rain_procentage": 27.257902745853446,
+  "wind_speed": 53.11008666885458,
+  "wind_direction": "NE",
+  "date": "12/17/2022"
+ },
+ {
+  "stationid": 37,
+  "city": "Botosani",
+  "temperature": -16.398270717878066,
+  "rain_procentage": 31.271286470961478,
+  "wind_speed": 6.114865842842727,
+  "wind_direction": "N",
+  "date": "10/27/2022"
+ },
+ {
+  "stationid": 38,
+  "city": "Botosani",
+  "temperature": -5.906666263664043,
+  "rain_procentage": 1.6305592509694877,
+  "wind_speed": 44.925216198234466,
+  "wind_direction": "NW",
+  "date": "12/05/2022"
+ },
+ {
+  "stationid": 39,
+  "city": "Slatina",
+  "temperature": 17.333136647400437,
+  "rain_procentage": 29.081532812545895,
+  "wind_speed": 22.667902914514553,
+  "wind_direction": "S",
+  "date": "03/22/2022"
+ },
+ {
+  "stationid": 40,
+  "city": "Suceava",
+  "temperature": 21.101810125169976,
+  "rain_procentage": 94.64877895067306,
+  "wind_speed": 58.81968858102853,
+  "wind_direction": "E",
+  "date": "12/20/2022"
+ },
+ {
+  "stationid": 41,
+  "city": "Bacau",
+  "temperature": 0.9728323905174356,
+  "rain_procentage": 28.416361015007062,
+  "wind_speed": 47.521357030972446,
+  "wind_direction": "NE",
+  "date": "01/23/2022"
+ },
+ {
+  "stationid": 42,
+  "city": "Slatina",
+  "temperature": 29.222139545316814,
+  "rain_procentage": 51.773604695760824,
+  "wind_speed": 46.53145294189947,
+  "wind_direction": "N",
+  "date": "10/17/2022"
+ },
+ {
+  "stationid": 43,
+  "city": "Piatra Neamt",
+  "temperature": 31.702556174093836,
+  "rain_procentage": 87.04138565187499,
+  "wind_speed": 48.06416584662386,
+  "wind_direction": "SW",
+  "date": "04/01/2022"
+ },
+ {
+  "stationid": 44,
+  "city": "Deva",
+  "temperature": 30.927089550946654,
+  "rain_procentage": 37.66839023853722,
+  "wind_speed": 54.72980943434469,
+  "wind_direction": "N",
+  "date": "06/11/2022"
+ },
+ {
+  "stationid": 45,
+  "city": "Sfantu Gheorghe",
+  "temperature": -13.700631449006174,
+  "rain_procentage": 50.85826695910719,
+  "wind_speed": 18.215610847925454,
+  "wind_direction": "SE",
+  "date": "04/06/2022"
+ },
+ {
+  "stationid": 46,
+  "city": "Galati",
+  "temperature": 8.981465581479519,
+  "rain_procentage": 95.19528486940412,
+  "wind_speed": 1.133396950940826,
+  "wind_direction": "NW",
+  "date": "10/09/2022"
+ },
+ {
+  "stationid": 47,
+  "city": "Zalau",
+  "temperature": -16.119974298130046,
+  "rain_procentage": 25.389029828947287,
+  "wind_speed": 1.4793485829226682,
+  "wind_direction": "N",
+  "date": "11/07/2022"
+ },
+ {
+  "stationid": 48,
+  "city": "Botosani",
+  "temperature": -7.041079091098586,
+  "rain_procentage": 61.01745455309714,
+  "wind_speed": 6.692822857060001,
+  "wind_direction": "S",
+  "date": "04/17/2022"
+ },
+ {
+  "stationid": 49,
+  "city": "Sfantu Gheorghe",
+  "temperature": -7.7276881887307844,
+  "rain_procentage": 53.045058301014336,
+  "wind_speed": 64.43476979912099,
+  "wind_direction": "SW",
+  "date": "03/24/2022"
+ },
+ {
+  "stationid": 50,
+  "city": "Vaslui",
+  "temperature": 20.748539061622502,
+  "rain_procentage": 16.93446448755347,
+  "wind_speed": 13.72831902739767,
+  "wind_direction": "S",
+  "date": "06/08/2022"
+ },
+ {
+  "stationid": 51,
+  "city": "Constanta",
+  "temperature": -14.457569756829233,
+  "rain_procentage": 17.931652171532477,
+  "wind_speed": 63.35601262832136,
+  "wind_direction": "E",
+  "date": "09/09/2022"
+ },
+ {
+  "stationid": 52,
+  "city": "Baia Mare",
+  "temperature": 29.3978338865437,
+  "rain_procentage": 98.48131405770043,
+  "wind_speed": 8.989835194750455,
+  "wind_direction": "NE",
+  "date": "09/26/2022"
+ },
+ {
+  "stationid": 53,
+  "city": "Ploiesti",
+  "temperature": 34.35256812742575,
+  "rain_procentage": 31.633560458945286,
+  "wind_speed": 18.029726710959466,
+  "wind_direction": "S",
+  "date": "02/27/2022"
+ },
+ {
+  "stationid": 54,
+  "city": "Constanta",
+  "temperature": 20.00622600388717,
+  "rain_procentage": 32.400790533517885,
+  "wind_speed": 77.22070627142182,
+  "wind_direction": "W",
+  "date": "04/22/2022"
+ },
+ {
+  "stationid": 55,
+  "city": "Satu Mare",
+  "temperature": 34.37400196299411,
+  "rain_procentage": 96.28118636781132,
+  "wind_speed": 75.31323690046445,
+  "wind_direction": "NW",
+  "date": "05/21/2022"
+ },
+ {
+  "stationid": 56,
+  "city": "Buzau",
+  "temperature": 32.321132419839614,
+  "rain_procentage": 85.53338895321103,
+  "wind_speed": 7.418114725574085,
+  "wind_direction": "NW",
+  "date": "07/01/2022"
+ },
+ {
+  "stationid": 57,
+  "city": "Bucuresti",
+  "temperature": -9.571601828868758,
+  "rain_procentage": 92.48691861729122,
+  "wind_speed": 5.577994746375827,
+  "wind_direction": "E",
+  "date": "09/24/2022"
+ },
+ {
+  "stationid": 58,
+  "city": "Ramnicu Valcea",
+  "temperature": -8.129778674437821,
+  "rain_procentage": 86.1347599068566,
+  "wind_speed": 4.544262491469366,
+  "wind_direction": "S",
+  "date": "08/23/2022"
+ },
+ {
+  "stationid": 59,
+  "city": "Galati",
+  "temperature": 23.76278962806454,
+  "rain_procentage": 97.00779329962026,
+  "wind_speed": 73.2778899302206,
+  "wind_direction": "E",
+  "date": "01/10/2022"
+ },
+ {
+  "stationid": 60,
+  "city": "Giurgiu",
+  "temperature": -14.458512726467205,
+  "rain_procentage": 88.70868719479566,
+  "wind_speed": 29.07802645431471,
+  "wind_direction": "S",
+  "date": "04/24/2022"
+ },
+ {
+  "stationid": 61,
+  "city": "Timisoara",
+  "temperature": -9.928773297769686,
+  "rain_procentage": 26.307869186670672,
+  "wind_speed": 27.600027996240854,
+  "wind_direction": "S",
+  "date": "04/17/2022"
+ },
+ {
+  "stationid": 62,
+  "city": "Targu Mures",
+  "temperature": 12.20462043293145,
+  "rain_procentage": 36.57832120302466,
+  "wind_speed": 29.816578103187467,
+  "wind_direction": "N",
+  "date": "05/21/2022"
+ },
+ {
+  "stationid": 63,
+  "city": "Pitesti",
+  "temperature": 20.270404710998022,
+  "rain_procentage": 14.267614980556987,
+  "wind_speed": 0.6359127076627491,
+  "wind_direction": "N",
+  "date": "07/26/2022"
+ },
+ {
+  "stationid": 64,
+  "city": "Bacau",
+  "temperature": 24.784361149794705,
+  "rain_procentage": 93.3299270792317,
+  "wind_speed": 48.83505054081931,
+  "wind_direction": "SE",
+  "date": "09/01/2022"
+ },
+ {
+  "stationid": 65,
+  "city": "Satu Mare",
+  "temperature": 3.711298989926476,
+  "rain_procentage": 62.323402716923034,
+  "wind_speed": 72.95047160844385,
+  "wind_direction": "SW",
+  "date": "09/28/2022"
+ },
+ {
+  "stationid": 66,
+  "city": "Bistrita",
+  "temperature": 25.754705639299615,
+  "rain_procentage": 82.10162870363214,
+  "wind_speed": 31.859693291014626,
+  "wind_direction": "E",
+  "date": "06/25/2022"
+ },
+ {
+  "stationid": 67,
+  "city": "Sfantu Gheorghe",
+  "temperature": -18.464196795611567,
+  "rain_procentage": 70.23761527651212,
+  "wind_speed": 58.86301794567742,
+  "wind_direction": "SW",
+  "date": "07/28/2022"
+ },
+ {
+  "stationid": 68,
+  "city": "Galati",
+  "temperature": -11.40586513731495,
+  "rain_procentage": 97.7980862766195,
+  "wind_speed": 46.44759073002119,
+  "wind_direction": "W",
+  "date": "06/28/2022"
+ },
+ {
+  "stationid": 69,
+  "city": "Craiova",
+  "temperature": -6.49713438333726,
+  "rain_procentage": 44.641640106301615,
+  "wind_speed": 20.84916427304341,
+  "wind_direction": "SW",
+  "date": "05/20/2022"
+ },
+ {
+  "stationid": 70,
+  "city": "Braila",
+  "temperature": 9.16982838594917,
+  "rain_procentage": 95.84583618554947,
+  "wind_speed": 42.972081062534954,
+  "wind_direction": "NE",
+  "date": "08/08/2022"
+ },
+ {
+  "stationid": 71,
+  "city": "Slobozia",
+  "temperature": -18.439113911529013,
+  "rain_procentage": 99.46424148636801,
+  "wind_speed": 21.526810430931043,
+  "wind_direction": "E",
+  "date": "09/09/2022"
+ },
+ {
+  "stationid": 72,
+  "city": "Sibiu",
+  "temperature": -14.596624462070242,
+  "rain_procentage": 77.86639046068254,
+  "wind_speed": 5.8735281795257155,
+  "wind_direction": "NW",
+  "date": "07/30/2022"
+ },
+ {
+  "stationid": 73,
+  "city": "Timisoara",
+  "temperature": 5.16256238909218,
+  "rain_procentage": 58.68594692255152,
+  "wind_speed": 71.80900141146851,
+  "wind_direction": "NW",
+  "date": "12/25/2022"
+ },
+ {
+  "stationid": 74,
+  "city": "Sfantu Gheorghe",
+  "temperature": 17.609068181845807,
+  "rain_procentage": 57.62208134158777,
+  "wind_speed": 10.014056906582072,
+  "wind_direction": "N",
+  "date": "05/05/2022"
+ },
+ {
+  "stationid": 75,
+  "city": "Deva",
+  "temperature": -19.850709782774825,
+  "rain_procentage": 64.28096491111268,
+  "wind_speed": 45.75411038649158,
+  "wind_direction": "SE",
+  "date": "05/16/2022"
+ },
+ {
+  "stationid": 76,
+  "city": "Resita",
+  "temperature": -0.33580321172534866,
+  "rain_procentage": 3.190651011807777,
+  "wind_speed": 44.46872942542967,
+  "wind_direction": "S",
+  "date": "11/09/2022"
+ },
+ {
+  "stationid": 77,
+  "city": "Targu Mures",
+  "temperature": 28.216078730610512,
+  "rain_procentage": 33.87362820517171,
+  "wind_speed": 31.79120754380328,
+  "wind_direction": "E",
+  "date": "06/24/2022"
+ },
+ {
+  "stationid": 78,
+  "city": "Zalau",
+  "temperature": -1.9400915597007433,
+  "rain_procentage": 88.72819969447278,
+  "wind_speed": 18.480900907108335,
+  "wind_direction": "SW",
+  "date": "09/05/2022"
+ },
+ {
+  "stationid": 79,
+  "city": "Deva",
+  "temperature": 26.270530065583415,
+  "rain_procentage": 83.51116743273617,
+  "wind_speed": 30.018132767293313,
+  "wind_direction": "NE",
+  "date": "06/09/2022"
+ },
+ {
+  "stationid": 80,
+  "city": "Resita",
+  "temperature": 29.628689502941754,
+  "rain_procentage": 99.2078571026228,
+  "wind_speed": 55.5174688919304,
+  "wind_direction": "SE",
+  "date": "03/28/2022"
+ },
+ {
+  "stationid": 81,
+  "city": "Targu Jiu",
+  "temperature": -8.933846720290115,
+  "rain_procentage": 82.34398706533484,
+  "wind_speed": 35.520817598851636,
+  "wind_direction": "S",
+  "date": "05/20/2022"
+ },
+ {
+  "stationid": 82,
+  "city": "Tulcea",
+  "temperature": -15.287847538221254,
+  "rain_procentage": 71.82309236128245,
+  "wind_speed": 26.972501317865103,
+  "wind_direction": "W",
+  "date": "08/11/2022"
+ },
+ {
+  "stationid": 83,
+  "city": "Tulcea",
+  "temperature": 8.47956103128039,
+  "rain_procentage": 63.15469469977978,
+  "wind_speed": 2.940439386145721,
+  "wind_direction": "NW",
+  "date": "03/27/2022"
+ },
+ {
+  "stationid": 84,
+  "city": "Timisoara",
+  "temperature": 7.582653436521927,
+  "rain_procentage": 69.17171043731514,
+  "wind_speed": 30.611329477236957,
+  "wind_direction": "SW",
+  "date": "03/12/2022"
+ },
+ {
+  "stationid": 85,
+  "city": "Miercurea Ciuc",
+  "temperature": 3.589933166665933,
+  "rain_procentage": 80.55090422076432,
+  "wind_speed": 62.690090453365244,
+  "wind_direction": "SE",
+  "date": "07/30/2022"
+ },
+ {
+  "stationid": 86,
+  "city": "Tulcea",
+  "temperature": 5.6063367707137175,
+  "rain_procentage": 14.985884329559497,
+  "wind_speed": 44.713244545338064,
+  "wind_direction": "SE",
+  "date": "07/12/2022"
+ },
+ {
+  "stationid": 87,
+  "city": "Bucuresti",
+  "temperature": -19.499364924676513,
+  "rain_procentage": 87.54341490373719,
+  "wind_speed": 41.061546900346585,
+  "wind_direction": "N",
+  "date": "02/08/2022"
+ },
+ {
+  "stationid": 88,
+  "city": "Calarasi",
+  "temperature": 12.587571366675249,
+  "rain_procentage": 87.46072119402173,
+  "wind_speed": 0.668742362287551,
+  "wind_direction": "S",
+  "date": "10/11/2022"
+ },
+ {
+  "stationid": 89,
+  "city": "Timisoara",
+  "temperature": 17.14279491894822,
+  "rain_procentage": 36.10141139707683,
+  "wind_speed": 14.379086113824764,
+  "wind_direction": "E",
+  "date": "06/04/2022"
+ },
+ {
+  "stationid": 90,
+  "city": "Galati",
+  "temperature": 12.586280309888565,
+  "rain_procentage": 79.24388830161583,
+  "wind_speed": 48.35858305242827,
+  "wind_direction": "N",
+  "date": "12/10/2022"
+ },
+ {
+  "stationid": 91,
+  "city": "Braila",
+  "temperature": 14.003921176902637,
+  "rain_procentage": 57.3710222970029,
+  "wind_speed": 54.88752873629686,
+  "wind_direction": "W",
+  "date": "04/02/2022"
+ },
+ {
+  "stationid": 92,
+  "city": "Craiova",
+  "temperature": 14.258165995564724,
+  "rain_procentage": 86.72049113399319,
+  "wind_speed": 3.1111152131654407,
+  "wind_direction": "N",
+  "date": "06/22/2022"
+ },
+ {
+  "stationid": 93,
+  "city": "Sfantu Gheorghe",
+  "temperature": -17.101329645969706,
+  "rain_procentage": 62.48282351912891,
+  "wind_speed": 52.8753235452842,
+  "wind_direction": "SE",
+  "date": "01/31/2022"
+ },
+ {
+  "stationid": 94,
+  "city": "Alba Iulia",
+  "temperature": -12.254384416375455,
+  "rain_procentage": 13.57519814438206,
+  "wind_speed": 3.979565212284868,
+  "wind_direction": "NE",
+  "date": "01/25/2022"
+ },
+ {
+  "stationid": 95,
+  "city": "Botosani",
+  "temperature": 32.457803131738636,
+  "rain_procentage": 28.437119641016974,
+  "wind_speed": 65.49508002067303,
+  "wind_direction": "N",
+  "date": "12/08/2022"
+ },
+ {
+  "stationid": 96,
+  "city": "Craiova",
+  "temperature": -7.692607403531767,
+  "rain_procentage": 5.100407753949221,
+  "wind_speed": 26.8275794132067,
+  "wind_direction": "E",
+  "date": "11/26/2022"
+ },
+ {
+  "stationid": 97,
+  "city": "Iasi",
+  "temperature": 4.536388640291062,
+  "rain_procentage": 68.0967004253992,
+  "wind_speed": 66.65968397886643,
+  "wind_direction": "SW",
+  "date": "05/09/2022"
+ },
+ {
+  "stationid": 98,
+  "city": "Focsani",
+  "temperature": 24.68830375206211,
+  "rain_procentage": 46.446599404540876,
+  "wind_speed": 31.64933166932674,
+  "wind_direction": "SE",
+  "date": "08/11/2022"
+ },
+ {
+  "stationid": 99,
+  "city": "Vaslui",
+  "temperature": 24.492759753602606,
+  "rain_procentage": 1.5890698385142232,
+  "wind_speed": 17.73760919618414,
+  "wind_direction": "W",
+  "date": "04/17/2022"
+ },
+ {
+  "stationid": 100,
+  "city": "Focsani",
+  "temperature": 12.105251866516788,
+  "rain_procentage": 19.893258426832418,
+  "wind_speed": 62.67851937273826,
+  "wind_direction": "SW",
+  "date": "10/10/2022"
+ }
+]

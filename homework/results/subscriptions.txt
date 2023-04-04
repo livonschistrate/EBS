@@ -1,0 +1,100 @@
+{(city, ==, Timisoara)(temperature, =, 24.98745319350442)}
+{(city, ==, Satu Mare)}
+{(rain_procentage, !=, 89.81230453525674)(city, !=, Deva)(temperature, >=, -11.392085378219505)(wind_speed, =, 0.7520929499168538)(date, <=, 06/12/2022)(wind_direction, ==, NW)}
+{(city, ==, Iasi)}
+{(city, !=, Targoviste)}
+{(rain_procentage, >=, 93.14888813163361)(temperature, =, 9.339309135875595)(wind_direction, !=, SE)(city, ==, Brasov)}
+{(temperature, =, 6.285552420980817)(city, !=, Piatra Neamt)}
+{(wind_speed, =, 62.92901540959185)(date, !=, 07/13/2022)(wind_direction, !=, NW)(rain_procentage, !=, 28.721874136573366)(temperature, =, 32.4430532868211)(city, !=, Baia Mare)}
+{(wind_direction, ==, S)(temperature, >, -10.66349244996535)(rain_procentage, <, 41.38355172942142)(city, ==, Targu Mures)}
+{(city, ==, Slatina)(temperature, >, 4.6002643110144525)(wind_direction, !=, NW)}
+{(temperature, !=, -14.485939599064618)(city, !=, Alexandria)}
+{(temperature, >, 23.12861051171398)(wind_direction, ==, S)(city, ==, Alba Iulia)}
+{(city, !=, Constanta)}
+{(rain_procentage, !=, 22.727208212238015)(city, !=, Piatra Neamt)(wind_direction, !=, N)}
+{(temperature, <, 29.207585956350016)(wind_direction, ==, S)(city, !=, Targu Mures)(rain_procentage, !=, 77.3822490439711)(wind_speed, <=, 27.701422829239377)(date, >, 10/13/2022)}
+{(city, ==, Slobozia)(temperature, <, 8.106342128135598)}
+{(wind_direction, ==, W)(city, !=, Bucuresti)(date, !=, 09/08/2022)(temperature, !=, 10.367335691875805)(rain_procentage, =, 72.72245670209416)}
+{(city, ==, Resita)(temperature, !=, -14.623041510008013)}
+{(city, !=, Vaslui)(wind_direction, !=, S)(rain_procentage, <, 8.844263798275364)(temperature, >=, -5.303661128717609)}
+{(city, ==, Timisoara)(wind_direction, ==, W)(rain_procentage, >=, 84.6497555720183)(wind_speed, >=, 33.32725642746315)}
+{(city, ==, Cluj-Napoca)}
+{(wind_speed, >, 28.130163494563334)(city, !=, Bacau)(rain_procentage, >=, 15.244371151961067)}
+{(city, ==, Galati)}
+{(city, ==, Piatra Neamt)}
+{(city, !=, Tulcea)}
+{(date, <, 02/10/2022)(wind_speed, =, 71.87080424475285)(rain_procentage, =, 6.326023797234937)}
+{(wind_direction, !=, SW)(temperature, >=, -10.923441876697128)(rain_procentage, =, 6.455370262422444)}
+{(city, !=, Ramnicu Valcea)(date, =, 02/24/2022)(wind_speed, >, 68.33118328137371)}
+{(date, >=, 06/25/2022)(city, ==, Cluj-Napoca)(wind_speed, <, 50.85484418072053)(rain_procentage, <, 57.343251826784545)(temperature, !=, 19.888568153299715)(wind_direction, ==, NE)}
+{(date, >, 01/26/2022)(wind_speed, !=, 12.65238892178668)(temperature, !=, 3.313857714585936)(rain_procentage, <, 92.69295437937757)(city, !=, Focsani)}
+{(city, ==, Zalau)(wind_direction, !=, N)(rain_procentage, =, 10.0030195584774)(wind_speed, !=, 6.700714902159897)(temperature, !=, -9.782945431410566)(date, !=, 12/27/2022)}
+{(temperature, !=, 10.740145714472458)(city, !=, Bistrita)}
+{(temperature, !=, 1.0529249902434756)(city, !=, Slobozia)}
+{(temperature, >, -19.414355569626125)(city, !=, Suceava)}
+{(city, !=, Galati)}
+{(date, >, 03/27/2022)(wind_direction, ==, W)(city, ==, Sibiu)(rain_procentage, <, 65.05841402687776)}
+{(date, >, 03/12/2022)(wind_direction, !=, SE)(temperature, =, 2.5974206398720625)(city, ==, Alba Iulia)(wind_speed, =, 20.217572530426892)(rain_procentage, <=, 82.80998005730127)}
+{(wind_speed, <, 22.381529112409197)(rain_procentage, >, 84.86455197135315)(date, <=, 10/16/2022)(wind_direction, ==, W)(city, !=, Deva)}
+{(wind_direction, ==, NW)(date, !=, 06/30/2022)(wind_speed, >, 76.72770543075595)(temperature, !=, 23.469514853651553)(rain_procentage, >=, 21.036119801921906)}
+{(city, !=, Ramnicu Valcea)(rain_procentage, <, 48.65587449739785)(wind_direction, !=, NW)}
+{(rain_procentage, <, 25.32250662064619)(wind_direction, ==, W)(wind_speed, >=, 49.248383150673114)(date, <=, 10/09/2022)(city, !=, Sibiu)}
+{(temperature, !=, 8.694052127615297)(city, !=, Galati)}
+{(rain_procentage, <=, 79.95377013304851)(date, <, 02/01/2022)(wind_direction, !=, SE)(wind_speed, =, 27.501965838987566)(city, ==, Satu Mare)}
+{(city, ==, Resita)(rain_procentage, =, 43.38260347748497)(temperature, <=, 25.789671591436807)(wind_direction, !=, SW)(wind_speed, <=, 57.07174234503027)}
+{(city, !=, Galati)(wind_direction, !=, NW)(rain_procentage, =, 49.19160147261081)}
+{(city, !=, Zalau)(temperature, !=, 34.64541666781982)}
+{(rain_procentage, =, 24.32489926756113)}
+{(city, ==, Iasi)(wind_direction, !=, W)(date, =, 09/01/2022)}
+{(rain_procentage, !=, 76.05836430594483)(wind_speed, >=, 66.70454508477137)(date, >, 08/18/2022)}
+{(city, !=, Braila)}
+{(temperature, !=, -10.640012684426576)(city, !=, Brasov)}
+{(wind_direction, ==, W)(city, ==, Iasi)(temperature, !=, 33.211323132254584)}
+{(temperature, <, -5.0578685902204)(city, !=, Galati)}
+{(city, !=, Bistrita)(wind_direction, !=, SE)}
+{(city, !=, Iasi)(temperature, >=, -15.033768891317232)}
+{(city, !=, Zalau)}
+{(wind_direction, !=, S)(rain_procentage, <=, 68.78820371516706)(date, !=, 01/06/2022)(wind_speed, !=, 45.13144113859309)}
+{(date, <, 05/16/2022)(wind_speed, <=, 20.267341930200136)(city, !=, Arad)(wind_direction, ==, NE)(temperature, =, 10.035767965816852)}
+{(city, ==, Tulcea)}
+{(city, !=, Ploiesti)}
+{(temperature, >, -2.570762979056802)(city, ==, Focsani)}
+{(rain_procentage, >, 38.26601184245175)(wind_direction, ==, NW)}
+{(city, ==, Targu Jiu)(temperature, >, 20.364049379292567)}
+{(wind_speed, !=, 47.27478154443286)(wind_direction, ==, NE)(rain_procentage, !=, 44.366248839515585)(city, !=, Sibiu)(temperature, <, -10.204324412862707)}
+{(date, =, 05/06/2022)(city, ==, Alexandria)}
+{(city, ==, Galati)(rain_procentage, >, 26.503856302723648)(date, =, 07/22/2022)(wind_direction, !=, NW)}
+{(temperature, !=, -2.844377436569669)(city, !=, Brasov)}
+{(date, =, 10/13/2022)(wind_direction, !=, SW)(temperature, !=, 5.088608595956117)(rain_procentage, =, 53.02697666419831)(city, !=, Bistrita)}
+{(temperature, <, -10.793481533916164)(city, ==, Tulcea)}
+{(wind_direction, !=, NW)(temperature, !=, -15.947254815035937)(rain_procentage, !=, 60.760053395065505)(date, >, 11/23/2022)(wind_speed, !=, 55.228344425033384)(city, !=, Bucuresti)}
+{(rain_procentage, >, 89.08426649222238)(temperature, !=, -7.829856361333563)(date, !=, 03/09/2022)(wind_direction, !=, S)(wind_speed, <, 53.71914589851583)(city, ==, Bistrita)}
+{(wind_direction, ==, SW)(city, ==, Vaslui)(temperature, <, 12.11626526282857)(rain_procentage, =, 33.569937917997414)(wind_speed, =, 46.53259133980818)}
+{(city, !=, Alba Iulia)(temperature, =, 20.721255472115864)}
+{(date, !=, 04/30/2022)(wind_direction, !=, SW)(city, !=, Vaslui)}
+{(temperature, !=, 10.324516315355414)(wind_speed, <=, 50.85845440289848)(city, ==, Sibiu)}
+{(city, !=, Miercurea Ciuc)}
+{(rain_procentage, <=, 92.68175901294113)(wind_direction, !=, NE)(city, ==, Sibiu)}
+{(city, !=, Pitesti)}
+{(temperature, =, 34.06262576702702)}
+{(wind_direction, !=, S)(wind_speed, <=, 14.796637791020943)(rain_procentage, >=, 55.295744976461926)(temperature, !=, -2.5712608672849306)(city, !=, Vaslui)}
+{(temperature, >=, -10.335264458748169)(city, ==, Targu Jiu)}
+{(temperature, >=, 23.58735298146175)}
+{(city, ==, Deva)(wind_direction, ==, NE)}
+{(city, ==, Constanta)(wind_speed, =, 51.863091488896565)(date, >, 01/17/2022)(wind_direction, !=, E)(temperature, <=, 12.165035445037581)}
+{(temperature, =, 18.38713068928576)(city, ==, Brasov)}
+{(rain_procentage, =, 1.363417645737497)(date, !=, 09/11/2022)(wind_speed, <=, 29.61545817084863)(wind_direction, !=, SW)(temperature, !=, 30.81380496804681)(city, !=, Suceava)}
+{(date, !=, 11/24/2022)(wind_speed, <, 75.58494903889893)(rain_procentage, !=, 60.334974659656126)(wind_direction, ==, E)(temperature, <=, 27.84252836900437)(city, !=, Bucuresti)}
+{(city, ==, Slobozia)(temperature, !=, 21.68054057492167)}
+{(city, !=, Iasi)}
+{(city, ==, Zalau)(temperature, <=, -16.37801217927602)}
+{(city, !=, Iasi)(temperature, !=, -13.587957508156817)}
+{(date, !=, 11/24/2022)(wind_direction, !=, SE)(wind_speed, !=, 43.465924149320216)(temperature, !=, 26.51784857455163)(rain_procentage, !=, 34.86464635271972)(city, !=, Sibiu)}
+{(wind_direction, !=, SE)(city, ==, Tulcea)}
+{(wind_speed, <, 27.857441472714015)(temperature, !=, -6.8119079529624)(rain_procentage, =, 38.27572140229839)(date, <, 11/02/2022)(wind_direction, ==, SW)(city, !=, Slatina)}
+{(temperature, <, -14.835346474547347)(city, !=, Targu Jiu)}
+{(temperature, !=, 3.3229473134137493)(city, ==, Cluj-Napoca)}
+{(temperature, !=, 22.61598401621343)(city, ==, Miercurea Ciuc)}
+{(city, !=, Arad)}
+{(temperature, =, -16.188524488784243)(city, !=, Baia Mare)}
+{(temperature, <=, 1.3723559170971917)}

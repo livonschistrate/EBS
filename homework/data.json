@@ -1,0 +1,50 @@
+{
+    "city": ["Alba Iulia", "Arad", "Pitesti", "Bacau", "Oradea", "Bistrita", "Botosani",
+    "Braila", "Brasov", "Buzau", "Calarasi", "Resita", "Cluj-Napoca", "Constanta",
+    "Sfantu Gheorghe", "Targoviste", "Craiova", "Galati", "Giurgiu", "Targu Jiu",
+    "Miercurea Ciuc", "Deva", "Slobozia", "Iasi", "Baia Mare", "Targu Mures", "Piatra Neamt",
+    "Slatina", "Ploiesti", "Zalau", "Satu Mare", "Sibiu", "Suceava", "Alexandria", 
+    "Timisoara", "Tulcea", "Ramnicu Valcea", "Vaslui", "Focsani", "Bucuresti"],
+
+    "wind_direction": ["N", "S", "W", "E", "NW", "NE", "SW", "SE"],
+
+    "numeric_operator": ["!=", "=", ">", ">=", "<", "<="],
+
+    "string_operator": ["!=", "=="],
+
+    "temperature": {
+        "min_value": -20,
+        "max_value": 35
+    },
+
+    "wind_speed": {
+        "min_value": 0,
+        "max_value": 80
+    },
+    
+    "rain_procentage":{
+        "min_value": 0,
+        "max_value": 100
+    },
+
+    "frequencies":{
+        "stationid": 0,
+        "city": 90,
+        "temperature": 60,
+        "wind_direction": 45,
+        "wind_speed": 30,
+        "rain_procentage": 40,
+        "date": 30
+    },
+
+    "eqfrequencies":{
+        "stationid": 0,
+        "city": 90,
+        "temperature": 60,
+        "wind_direction": 40,
+        "wind_speed": 40,
+        "rain_procentage": 40,
+        "date": 35
+    }
+
+}
