@@ -27,12 +27,11 @@ def generateSubs(number):
     for field in FIELDS:
         equal_field_count[field] = getFieldEqualFrequency(field, field_count[field])
     
-    subscriptions = []
-    fields_to_clear = []
+    subscriptions, fields_to_clear = [], []
     for i in range(number):
         subscription = {}
         subscription['stationid'] = i+1
-        fields = random.sample(field_count.keys(), random.randrange(1, len(field_count.keys()) + 1))
+        fields = random.sample(list(field_count.keys()), random.randrange(1, len(field_count.keys()) + 1))
         for field in fields:
             subscription[field] = getFieldValue(field)
             field_count[field] -= 1

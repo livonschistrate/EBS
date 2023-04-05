@@ -18,7 +18,6 @@ def generatePubs(number):
              publication[field] = getFieldValue(field)
         publications.append(publication)
     writeResult(publications)
-    return publications
     
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="publish.py creates publications")
