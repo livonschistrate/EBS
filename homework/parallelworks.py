@@ -1,4 +1,4 @@
-import threading, argparse, time
+import threading, argparse, time, random
 from publish import generatePubs
 from subscribe import generateSubs
 
@@ -14,14 +14,22 @@ if __name__ == '__main__':
         's': generateSubs
     } 
     threads, totaltime = [], 0
+    tp , ts = 0, 0
     for i in range(args.threads):
-        t = threading.Thread(target=opertype[args.settype], args=(args.number,))
+        chosen_operation = random.choice(list(opertype.keys()))
+        if chosen_operation == 'p':
+            tp += 1 
+        else:
+            ts += 1
+        t = threading.Thread(target=opertype[chosen_operation], args=(args.number,))
         threads.append(t)
         start = time.time()
         t.start()
         t.join()
         end = time.time()
         totaltime += end - start
+    print(tp, "threads generated publications")
+    print(ts, "threads genereated subscriptions")
     print("We ruled {0} threads of {1} {2}, the execution time is: {3}".format(args.threads, args.number, 
-                                                                               "publications" if args.settype == 'p' else "subscriptions",
+                                                                               "messages",
                                                                                totaltime))
