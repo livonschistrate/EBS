@@ -10,15 +10,23 @@ A program (written in Python) that generates random sets of subscriptions and pu
 # Results
 ## Processor details
 OS Name: Microsoft Windows 10 Education
+
 Processor:	Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz   2.59 GHz
+
 Device ID:	587407AC-EBBA-4AE3-AAA9-4D124CEA5CDF
+
 Product ID:	00328-00095-24679-AA482
+
 System type: 64-bit operating system, x64-based processor
 
 Installed RAM:	8.00 GB
+
 Total Physical Memory:	7.89 GB
+
 Available Physical Memory:	1.27 GB
+
 Total Virtual Memory:	16.3 GB
+
 Available Virtual Memory:	3.45 GB
 
 ## Tests with a single thread
