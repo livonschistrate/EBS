@@ -29,11 +29,17 @@ def getFieldOperator(field):
     elif field in ["temperature", "rain_procentage", "wind_speed", "date"]:
         return random.choice(CONSTANTS['numeric_operator'])
     
-def changeFieldOperator(field):
+def getEqFieldOperator(field):
     if field in ["city", "wind_direction"]:
         return CONSTANTS['string_operator'][0]
     elif field in ["temperature", "rain_procentage", "wind_speed", "date"]:
         return CONSTANTS['numeric_operator'][0]
+    
+def getNonEqFieldOperator(field):
+    if field in ["city", "wind_direction"]:
+        return CONSTANTS['string_operator'][1]
+    elif field in ["temperature", "rain_procentage", "wind_speed", "date"]:
+        return random.choice([x for x in CONSTANTS['numeric_operator'] if x != CONSTANTS['numeric_operator'][0]])
     
     
     

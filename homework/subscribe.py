@@ -1,6 +1,6 @@
 import random, argparse, json
 from config import CONSTANTS, FIELDS, FREQUENCIES, EQ_FREQUENCIES, \
-                   getFieldValue, getFieldOperator, changeFieldOperator
+                   getFieldValue, getFieldOperator, getEqFieldOperator, getNonEqFieldOperator
 
 def getFieldFrequency(field, number):
     return FREQUENCIES[field] * number // 100
@@ -20,73 +20,81 @@ def writeResult(subscriptions):
         j.write(json.dumps(subscriptions, indent=1))
 
 def generateSubs(number):
-    field_count = dict()
+    field_count, subs_that_contain_field, subs_that_contain_equal = dict(), {}, {}
     for field in FIELDS:
         field_count[field] = getFieldFrequency(field, number)
+        subs_that_contain_field[field] = []
+        subs_that_contain_equal[field] = []
     equal_field_count = dict()
     for field in FIELDS:
         equal_field_count[field] = getFieldEqualFrequency(field, field_count[field])
     
-    subscriptions, fields_to_clear = [], []
+    subscriptions = []
     for i in range(number):
-        subscription = {}
-        subscription['stationid'] = i+1
-        fields = random.sample(list(field_count.keys()), random.randrange(1, len(field_count.keys()) + 1))
-        for field in fields:
-            subscription[field] = getFieldValue(field)
+        if field_count != {}: 
+            subscription = {}
+            subscription['stationid'] = i+1
+            fields = random.sample(list(field_count.keys()), random.randrange(1, len(field_count.keys()) + 1))
+            for field in fields:
+                subscription[field] = getFieldValue(field)
+                field_count[field] -= 1
+                subs_that_contain_field[field].append(i)
+            subscriptions.append(subscription)
+
+    for field in field_count:
+        while field_count[field] < 0:
+            sub_nr = random.choice(subs_that_contain_field[field])
+            subscriptions[sub_nr].pop(field)
+            field_count[field] += 1
+            subs_that_contain_field[field].remove(sub_nr)
+        while field_count[field] > 0:
+            sub_nr = random.randrange(0, number)
+            while sub_nr in subs_that_contain_field[field]:
+                sub_nr = random.randrange(0, number)
+            subscriptions[sub_nr][field] = getFieldValue(field)
             field_count[field] -= 1
-        subscriptions.append(subscription)
-        for field in field_count:
-            if field_count[field] == 0:
-                fields_to_clear.append(field)
-        if fields_to_clear != []:
-            for field in fields_to_clear:
-                field_count.pop(field)
-            fields_to_clear = []
-                
-    if field_count != []:
-        for field in field_count:
-            while field_count[field]:
-                sub_nr = random.randrange(1, number)
-                if field not in subscriptions[sub_nr]:
-                    subscriptions[sub_nr][field] = getFieldValue(field)
-                    field_count[field] -= 1
-                    
-    for i in range(number):        
-        subscriptions[i]['operators'] = {}
+            subs_that_contain_field[field].append(sub_nr)
+             
+    if any(len(sub.keys()) == 1 for sub in subscriptions):
+        for sub in subscriptions:
+            if len(sub.keys()) == 1:
+                change_sub = random.choice([s for s in subscriptions if len(s.keys()) > 2])
+                change_field = random.choice([f for f in change_sub.keys() if f in FIELDS])
+                sub[change_field] = change_sub[change_field]
+                change_sub.pop(change_field)                       
     
     for sub in subscriptions:
+        sub['operators'] = {}
         for field in sub:
             sub['operators'][field] = getFieldOperator(field)
             if field not in ['operators', 'stationid'] and field in equal_field_count:
                 if sub['operators'][field] in ['=', '=='] and equal_field_count[field] != 0:
+                    subs_that_contain_equal[field].append(sub['stationid']-1)
                     equal_field_count[field] -= 1
-                if sub['operators'][field] in ['=', '=='] and equal_field_count[field] == 0:
-                    while sub['operators'][field] in ['=', '==']:
-                        sub['operators'][field] = getFieldOperator(field)
-            if field in ['operators', 'stationid']:
+                elif sub['operators'][field] in ['=', '=='] and equal_field_count[field] == 0:
+                    sub['operators'][field] = getNonEqFieldOperator(field)
+            elif field in ['operators', 'stationid']:
                 sub['operators'].pop(field)
-        for field in equal_field_count:
-            if equal_field_count[field] == 0:
-                fields_to_clear.append(field)
-        if fields_to_clear != []:
-            for field in fields_to_clear:
-                equal_field_count.pop(field)
-            fields_to_clear = []
-    
-    if equal_field_count != []:
-        for field in equal_field_count:
-            while equal_field_count[field]:
-                sub_nr = random.randrange(1, number)
-                if field in subscriptions[sub_nr] and subscriptions[sub_nr]['operators'][field] not in ['=', '==']:
-                    subscriptions[sub_nr]['operators'][field] = changeFieldOperator(field)
-                    equal_field_count[field] -= 1
+
+    for field in equal_field_count:
+        while equal_field_count[field] < 0:
+            sub_nr = random.choice(subs_that_contain_equal[field])
+            if field in subscriptions[sub_nr]:
+                subscriptions[sub_nr]['operators'][field] = getNonEqFieldOperator(field)
+                equal_field_count[field] += 1
+        while equal_field_count[field] > 0:
+            sub_nr = random.randrange(0, number)
+            while sub_nr in subs_that_contain_equal[field]:
+                sub_nr = random.randrange(0, number)
+            if field in subscriptions[sub_nr]:
+                subscriptions[sub_nr]['operators'][field] = getEqFieldOperator(field)
+                equal_field_count[field] -= 1
                     
     random.shuffle(subscriptions)
     writeResult(subscriptions)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="subscribe.py creates subscriptions")
-    parser.add_argument('--number', '-n', default=100, type=int, help="Number of publications to be generated")
+    parser.add_argument('--number', '-n', default=10000, type=int, help="Number of publications to be generated")
     args = parser.parse_args()
     generateSubs(args.number)

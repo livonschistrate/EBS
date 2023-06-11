@@ -1,6 +1,6 @@
 import argparse, json
 from config import CONSTANTS, FIELDS, getFieldValue
-    
+  
 def writeResult(publications):
     with open('results/publications.txt', 'w') as f:
         for p in publications:
@@ -8,7 +8,7 @@ def writeResult(publications):
             f.write("\n")
     with open('results/publications.json', 'w') as j:
         j.write(json.dumps(publications, indent=1))
-    
+
 def generatePubs(number):
     publications = []
     for i in range(number):
