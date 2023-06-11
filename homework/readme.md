@@ -31,15 +31,15 @@ Available Virtual Memory:	3.45 GB
 
 ## Tests with a single thread
 
-One thread generated 100000 publications in an execution time of 3.4719600677490234 seconds and 100000 subscriptions in 4.853944301605225 seconds.
+One thread generated 10000 publications in an execution time of 3.8786258697509766 seconds and 10000 subscriptions in 1.8399782180786133 seconds.
 
 ## Tests with multiple threads operating only a single type of set
 
-5 threads generated each 100000 publications in 18.51911449432373 seconds, while the same 5 threads can generate 100000 subscriptions in 21.746896266937256 seconds.
+5 threads generated each 100000 publications in 18.51911449432373 seconds, while the same 5 threads can generate 10000 subscriptions in 9.051119089126587 seconds.
 
 ## Tests with multiple threads operating both publications and subscriptions
 
-In this case we have, as an example, 2 threads that generate publications and other 3 that generate subscriptions, each of them in 100000 exemplaries. The execution of these threads can be done in cca. 20 seconds.
+In this case we have, as an example, 2 threads that generate publications and other 3 that generate subscriptions, each of them in 10000 exemplaries. The execution of these threads can be done in cca. 7 seconds.
 
 ## Commands
 
