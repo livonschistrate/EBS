@@ -1,45 +1,17 @@
 # EBS Homework
 
-A program (written in Python) that generates random sets of subscriptions and publications that has the following features:
-- choosing the total number of messages, as well as the message type (publication/subscription) at the command line
-- fixed frequency procents for the fields that can be changed at ```data.json```
-- every field has a frequency procent for the '=' operator, again, this can be changed at ```data.json```
-- parallel execution: a threading feature that generates simultaneously publications and subscriptions
-- execution of generating either publications or subscriptions, without using the threading feature
+O arhitectura de sistem publish/subscribe, content-based, care sa fie capabila sa proceseze si secvente de publicatii grupate in ferestre, structurata in felul urmator:
+
+Generati un flux de publicatii care sa fie emis de un nod publisher. Publicatiile pot fi generate cu valori aleatoare pentru campuri folosind generatorul de date din tema practica. (5 puncte)
+Implementati o retea (overlay) de brokeri (2-3) care sa notifice clienti (subscriberi) in functie de o filtrare bazata pe continutul publicatiilor, cu posibilitatea de a procesa inclusiv ferestre (secvente) de publicatii (exemplu mai jos). (10 puncte)
+Simulati 3 noduri subscriber care se conecteaza la reteaua de brokeri si pot inregistra atat susbcriptii simple cat si subscriptii complexe ce necesita o filtrare pe fereastra de publicatii. Subscriptiile pot fi generate cu valori aleatoare pentru campuri folosind generatorul de date din tema practica, modificat pentru a genera si subscriptii pentru ferestre de publicatii (exemplu mai jos). (5 puncte)
+Folositi un mecanism de serializare binara (exemplu - Google Protocol Buffers sau Thrift) pentru transmiterea publicatiilor de la nodul publisher la brokers. (5 puncte)
+Realizati o evaluare a sistemului, masurand pentru inregistrarea a 10000 de subscriptii simple, urmatoarele statistici: a) cate publicatii se livreaza cu succes prin reteaua de brokeri intr-un interval continuu de feed de 3 minute, b) latenta medie de livrare a unei publicatii (timpul de la emitere pana la primire) pentru publicatiile trimise in acelasi interval, c) rata de potrivire (matching) pentru cazul in care subscriptiile generate contin pe unul dintre campuri doar operator de egalitate (100%) comparata cu situatia in care frecventa operatorului de egalitate pe campul respectiv este aproximativ un sfert (25%). Redactati un scurt raport de evaluare a solutiei. (10 puncte)
 
 # Results
-## Processor details
-OS Name: Microsoft Windows 10 Education
 
-Processor:	Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz   2.59 GHz
-
-Device ID:	587407AC-EBBA-4AE3-AAA9-4D124CEA5CDF
-
-Product ID:	00328-00095-24679-AA482
-
-System type: 64-bit operating system, x64-based processor
-
-Installed RAM:	8.00 GB
-
-Total Physical Memory:	7.89 GB
-
-Available Physical Memory:	1.27 GB
-
-Total Virtual Memory:	16.3 GB
-
-Available Virtual Memory:	3.45 GB
-
-## Tests with a single thread
-
-One thread generated 10000 publications in an execution time of 3.8786258697509766 seconds and 10000 subscriptions in 1.8399782180786133 seconds.
-
-## Tests with multiple threads operating only a single type of set
-
-5 threads generated each 100000 publications in 18.51911449432373 seconds, while the same 5 threads can generate 10000 subscriptions in 9.051119089126587 seconds.
-
-## Tests with multiple threads operating both publications and subscriptions
-
-In this case we have, as an example, 2 threads that generate publications and other 3 that generate subscriptions, each of them in 10000 exemplaries. The execution of these threads can be done in cca. 7 seconds.
+## Tests 
+For 1000 publications and subscriptions, the broker takes almost 60 seconds to process the registered subscriptions and match the publications, while the subscriber sends the subscriptions and waits until he receives a response about the filtered publications.
 
 ## Commands
 
