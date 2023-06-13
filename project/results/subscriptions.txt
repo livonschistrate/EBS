@@ -1,0 +1,10 @@
+{(date, <=, 09/05/2022)(temperature, >=, -0.3212515476254474)(city, ==, Bucuresti)(wind_speed, >, 57.93776257540018)}
+{(city, ==, Miercurea Ciuc)(temperature, =, -15.388851976637408)}
+{(wind_direction, !=, N)(city, !=, Focsani)}
+{(date, >, 09/13/2022)(city, ==, Craiova)(rain_procentage, >=, 39.81825582192198)(temperature, =, 3.982361068707398)(wind_speed, >=, 28.360352733709195)}
+{(city, !=, Baia Mare)(rain_procentage, <=, 8.9920148036142)}
+{(rain_procentage, >, 79.0235902104925)(date, >=, 12/07/2022)(wind_direction, !=, S)(city, ==, Satu Mare)}
+{(temperature, >, 9.086583115626176)}
+{(wind_speed, >, 39.950976232182455)(city, !=, Ramnicu Valcea)(wind_direction, !=, NE)}
+{(temperature, <, 29.849057329234725)(city, !=, Botosani)}
+{(city, !=, Oradea)(temperature, !=, 24.17044312030223)}
