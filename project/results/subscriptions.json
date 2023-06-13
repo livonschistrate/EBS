@@ -1,106 +1,106 @@
 [
  {
   "stationid": 1,
-  "date": "09/05/2022",
-  "temperature": -0.3212515476254474,
-  "city": "Bucuresti",
-  "wind_speed": 57.93776257540018,
+  "wind_direction": "SW",
+  "city": "Sfantu Gheorghe",
+  "temperature": 33.695513209572596,
   "operators": {
-   "date": "<=",
-   "temperature": ">=",
+   "wind_direction": "!=",
    "city": "==",
-   "wind_speed": ">"
+   "temperature": "!="
   }
  },
  {
   "stationid": 2,
-  "city": "Miercurea Ciuc",
-  "temperature": -15.388851976637408,
+  "date": "12/19/2022",
+  "city": "Suceava",
+  "rain_procentage": 71.67452249559967,
+  "wind_direction": "N",
+  "temperature": 33.38339635730271,
+  "wind_speed": 15.18441053667102,
   "operators": {
-   "city": "==",
-   "temperature": "="
+   "date": ">",
+   "city": "!=",
+   "rain_procentage": "<=",
+   "wind_direction": "!=",
+   "temperature": "=",
+   "wind_speed": "<="
   }
  },
  {
   "stationid": 3,
-  "wind_direction": "N",
-  "city": "Focsani",
+  "temperature": 22.3925714034186,
+  "rain_procentage": 29.13572869341843,
+  "city": "Slobozia",
   "operators": {
-   "wind_direction": "!=",
-   "city": "!="
-  }
- },
- {
-  "stationid": 4,
-  "date": "09/13/2022",
-  "city": "Craiova",
-  "rain_procentage": 39.81825582192198,
-  "temperature": 3.982361068707398,
-  "wind_speed": 28.360352733709195,
-  "operators": {
-   "date": ">",
-   "city": "==",
+   "temperature": "<",
    "rain_procentage": ">=",
-   "temperature": "=",
-   "wind_speed": ">="
-  }
- },
- {
-  "stationid": 5,
-  "city": "Baia Mare",
-  "rain_procentage": 8.9920148036142,
-  "operators": {
-   "city": "!=",
-   "rain_procentage": "<="
-  }
- },
- {
-  "stationid": 6,
-  "rain_procentage": 79.0235902104925,
-  "date": "12/07/2022",
-  "wind_direction": "S",
-  "city": "Satu Mare",
-  "operators": {
-   "rain_procentage": ">",
-   "date": ">=",
-   "wind_direction": "!=",
    "city": "=="
   }
  },
  {
-  "stationid": 7,
-  "temperature": 9.086583115626176,
+  "stationid": 4,
+  "date": "10/23/2022",
   "operators": {
-   "temperature": ">"
+   "date": ">"
   }
  },
  {
-  "stationid": 8,
-  "wind_speed": 39.950976232182455,
-  "city": "Ramnicu Valcea",
-  "wind_direction": "NE",
+  "stationid": 5,
+  "city": "Zalau",
   "operators": {
-   "wind_speed": ">",
-   "city": "!=",
-   "wind_direction": "!="
+   "city": "=="
   }
  },
  {
-  "stationid": 9,
-  "temperature": 29.849057329234725,
-  "city": "Botosani",
+  "stationid": 6,
+  "city": "Bucuresti",
   "operators": {
-   "temperature": "<",
    "city": "!="
   }
  },
  {
-  "stationid": 10,
-  "city": "Oradea",
-  "temperature": 24.17044312030223,
+  "stationid": 7,
+  "city": "Suceava",
+  "wind_speed": 51.23643843798392,
   "operators": {
    "city": "!=",
-   "temperature": "!="
+   "wind_speed": ">"
+  }
+ },
+ {
+  "stationid": 8,
+  "city": "Buzau",
+  "rain_procentage": 74.14939835848313,
+  "temperature": -9.542162893392938,
+  "operators": {
+   "city": "==",
+   "rain_procentage": ">",
+   "temperature": "<="
+  }
+ },
+ {
+  "stationid": 9,
+  "city": "Braila",
+  "wind_direction": "NE",
+  "temperature": 24.103220336205638,
+  "date": "01/12/2022",
+  "wind_speed": 59.81607566988543,
+  "operators": {
+   "city": "!=",
+   "wind_direction": "!=",
+   "temperature": "<",
+   "date": ">=",
+   "wind_speed": ">"
+  }
+ },
+ {
+  "stationid": 10,
+  "city": "Constanta",
+  "temperature": 30.38336653470966,
+  "operators": {
+   "city": "!=",
+   "temperature": "="
   }
  }
 ]

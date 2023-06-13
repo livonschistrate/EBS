@@ -1,0 +1,11 @@
+syntax = "protobuf";
+
+message Publication {
+  int stationid = 1,
+  string city = "Suceava",
+  float temperature: -5.5378763734822325,
+  float rain_procentage: 69.10430282818582,
+  float wind_speed: 32.81366547167222,
+  string wind_direction: "SE",
+  string date: "07/30/2022"
+}

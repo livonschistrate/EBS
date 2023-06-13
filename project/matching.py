@@ -70,7 +70,7 @@ def generateMatchingOneComplexSubscription(subscription,publications):
     conditions_remplies = True
     
     selected_city_pubs = []
-    if subscription['operator']['city'] == '==':
+    if subscription['operators']['city'] == '==':
         for pub in publications:
             if pub['city'] == subscription['city']:
                 selected_city_pubs.append(pub)
@@ -88,7 +88,7 @@ def generateMatchingOneComplexSubscription(subscription,publications):
             if key in ["avg_temperature", "avg_rain_procentage", "avg_wind_speed"]:
                 averages[key] = 0
                 for pub in selected_pubs:
-                    averages[key] += pub[key]
+                    averages[key] += pub[key[4:]]
                 averages[key] /= PUB_WINDOW
         
         for key in sub_keys:
@@ -123,9 +123,12 @@ if __name__ == '__main__':
         publications = json.load(p)
     with open('results/subscriptions.json') as s:
         subscriptions = json.load(s)
+    with open('results/complexsubscriptions.json') as s:
+        complexsubscriptions = json.load(s)
 
     parser = argparse.ArgumentParser(description="matching.py match one subscription with the publications")
     parser.add_argument('--number', '-n', default=100, type=int, help="Id of the subscription you want to match")
     args = parser.parse_args()
     generateMatching(subscriptions,publications)
+    generateMatchingOneComplexSubscription(complexsubscriptions[2], publications)
 

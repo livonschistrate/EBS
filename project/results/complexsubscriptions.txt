@@ -1,0 +1,50 @@
+{"operators": {"city": "!=", "avg_temperature": "<", "avg_rain_procentage": ">", "avg_wind_speed": "<="}, "stationid": 1, "city": "Pitesti", "avg_temperature": 13.037689792774422, "avg_rain_procentage": 46.00332493701484, "avg_wind_speed": 36.20415653860529}
+{"operators": {"city": "!=", "avg_wind_speed": ">=", "avg_temperature": ">=", "avg_rain_procentage": ">"}, "stationid": 2, "city": "Targoviste", "avg_wind_speed": 3.8929674197087794, "avg_temperature": 15.37916497961303, "avg_rain_procentage": 12.965461942991825}
+{"operators": {"city": "==", "avg_rain_procentage": "<", "avg_temperature": ">", "avg_wind_speed": ">"}, "stationid": 3, "city": "Cluj-Napoca", "avg_rain_procentage": 28.119710360199345, "avg_temperature": 1.4401591873303001, "avg_wind_speed": 29.518243407616445}
+{"operators": {"city": "!=", "avg_rain_procentage": ">"}, "stationid": 4, "city": "Buzau", "avg_rain_procentage": 44.18075733107328}
+{"operators": {"city": "!=", "avg_temperature": ">=", "avg_rain_procentage": ">=", "avg_wind_speed": "<="}, "stationid": 5, "city": "Vaslui", "avg_temperature": 11.66159718105806, "avg_rain_procentage": 36.87831741574649, "avg_wind_speed": 15.422763983943447}
+{"operators": {"city": "==", "avg_wind_speed": "<", "avg_rain_procentage": "<=", "avg_temperature": ">"}, "stationid": 6, "city": "Vaslui", "avg_wind_speed": 5.705425196236145, "avg_rain_procentage": 0.8322055874506573, "avg_temperature": -9.296309718404087}
+{"operators": {"city": "==", "avg_wind_speed": "<="}, "stationid": 7, "city": "Targu Jiu", "avg_wind_speed": 9.131727535266924}
+{"operators": {"city": "!=", "avg_wind_speed": "<=", "avg_temperature": ">", "avg_rain_procentage": "<"}, "stationid": 8, "city": "Alexandria", "avg_wind_speed": 7.074381215016034, "avg_temperature": -1.342025472960053, "avg_rain_procentage": 48.786581410014236}
+{"operators": {"city": "!=", "avg_rain_procentage": "<", "avg_temperature": ">=", "avg_wind_speed": ">="}, "stationid": 9, "city": "Oradea", "avg_rain_procentage": 17.879073992720322, "avg_temperature": 8.575570944871188, "avg_wind_speed": 26.152616618552184}
+{"operators": {"city": "==", "avg_wind_speed": ">", "avg_rain_procentage": ">=", "avg_temperature": ">"}, "stationid": 10, "city": "Vaslui", "avg_wind_speed": 36.69180340381288, "avg_rain_procentage": 32.13464008377178, "avg_temperature": 15.43020848371265}
+{"operators": {"city": "!=", "avg_wind_speed": ">"}, "stationid": 11, "city": "Sibiu", "avg_wind_speed": 1.9563151001964796}
+{"operators": {"city": "!=", "avg_rain_procentage": "<=", "avg_wind_speed": ">=", "avg_temperature": ">"}, "stationid": 12, "city": "Slobozia", "avg_rain_procentage": 39.574418367772516, "avg_wind_speed": 5.4547769738874825, "avg_temperature": 17.035743353105463}
+{"operators": {"city": "!=", "avg_rain_procentage": "<"}, "stationid": 13, "city": "Slobozia", "avg_rain_procentage": 32.226226383102606}
+{"operators": {"city": "!=", "avg_temperature": ">", "avg_wind_speed": ">="}, "stationid": 14, "city": "Ploiesti", "avg_temperature": 7.601922088941194, "avg_wind_speed": 1.8244188741261285}
+{"operators": {"city": "==", "avg_rain_procentage": ">=", "avg_wind_speed": "<="}, "stationid": 15, "city": "Slatina", "avg_rain_procentage": 2.3897801946221433, "avg_wind_speed": 1.1556461953939317}
+{"operators": {"city": "==", "avg_rain_procentage": "<"}, "stationid": 16, "city": "Oradea", "avg_rain_procentage": 11.210830397820187}
+{"operators": {"city": "!=", "avg_temperature": "<=", "avg_rain_procentage": "<", "avg_wind_speed": ">="}, "stationid": 17, "city": "Ploiesti", "avg_temperature": -0.39864571713391683, "avg_rain_procentage": 18.73650820613034, "avg_wind_speed": 0.4472234650305307}
+{"operators": {"city": "==", "avg_wind_speed": ">", "avg_temperature": ">="}, "stationid": 18, "city": "Zalau", "avg_wind_speed": 27.183188259529928, "avg_temperature": 12.710597914755702}
+{"operators": {"city": "!=", "avg_wind_speed": ">=", "avg_rain_procentage": "<=", "avg_temperature": ">"}, "stationid": 19, "city": "Slobozia", "avg_wind_speed": 6.894458776110222, "avg_rain_procentage": 41.488185617009684, "avg_temperature": 10.661678300954794}
+{"operators": {"city": "!=", "avg_rain_procentage": "<"}, "stationid": 20, "city": "Baia Mare", "avg_rain_procentage": 1.941072161347579}
+{"operators": {"city": "!=", "avg_wind_speed": "<=", "avg_temperature": ">="}, "stationid": 21, "city": "Oradea", "avg_wind_speed": 12.900879029916783, "avg_temperature": -7.671956416226513}
+{"operators": {"city": "==", "avg_wind_speed": "<"}, "stationid": 22, "city": "Calarasi", "avg_wind_speed": 21.20099857599513}
+{"operators": {"city": "!=", "avg_rain_procentage": ">=", "avg_wind_speed": ">="}, "stationid": 23, "city": "Zalau", "avg_rain_procentage": 2.191432133982846, "avg_wind_speed": 17.33279958184326}
+{"operators": {"city": "!=", "avg_temperature": ">", "avg_rain_procentage": "<="}, "stationid": 24, "city": "Suceava", "avg_temperature": 2.9096812580247366, "avg_rain_procentage": 22.9685052297826}
+{"operators": {"city": "==", "avg_rain_procentage": ">="}, "stationid": 25, "city": "Arad", "avg_rain_procentage": 25.782050356043257}
+{"operators": {"city": "==", "avg_temperature": ">=", "avg_rain_procentage": "<="}, "stationid": 26, "city": "Zalau", "avg_temperature": 19.70583138670983, "avg_rain_procentage": 6.48951293696115}
+{"operators": {"city": "==", "avg_wind_speed": ">", "avg_rain_procentage": "<=", "avg_temperature": "<="}, "stationid": 27, "city": "Pitesti", "avg_wind_speed": 23.875464312800425, "avg_rain_procentage": 35.78330134631343, "avg_temperature": 2.4812358269782226}
+{"operators": {"city": "==", "avg_temperature": ">=", "avg_rain_procentage": "<="}, "stationid": 28, "city": "Satu Mare", "avg_temperature": 15.200265793753616, "avg_rain_procentage": 23.897379985338823}
+{"operators": {"city": "==", "avg_wind_speed": ">", "avg_rain_procentage": ">=", "avg_temperature": ">="}, "stationid": 29, "city": "Timisoara", "avg_wind_speed": 43.88089459639114, "avg_rain_procentage": 3.002179338901678, "avg_temperature": 10.984258160874287}
+{"operators": {"city": "==", "avg_wind_speed": "<=", "avg_temperature": "<="}, "stationid": 30, "city": "Bistrita", "avg_wind_speed": 8.167187267803795, "avg_temperature": -1.6450194762325445}
+{"operators": {"city": "==", "avg_rain_procentage": ">", "avg_temperature": "<=", "avg_wind_speed": "<="}, "stationid": 31, "city": "Piatra Neamt", "avg_rain_procentage": 2.995865852207613, "avg_temperature": 7.001128834718337, "avg_wind_speed": 24.031394841013427}
+{"operators": {"city": "==", "avg_rain_procentage": "<", "avg_temperature": "<"}, "stationid": 32, "city": "Zalau", "avg_rain_procentage": 8.967087104269368, "avg_temperature": -8.31464596519819}
+{"operators": {"city": "!=", "avg_wind_speed": ">=", "avg_rain_procentage": "<="}, "stationid": 33, "city": "Vaslui", "avg_wind_speed": 36.55573248323267, "avg_rain_procentage": 4.7226198016793175}
+{"operators": {"city": "==", "avg_rain_procentage": "<", "avg_temperature": ">"}, "stationid": 34, "city": "Buzau", "avg_rain_procentage": 25.48219905087736, "avg_temperature": 10.40338182994925}
+{"operators": {"city": "==", "avg_wind_speed": ">="}, "stationid": 35, "city": "Calarasi", "avg_wind_speed": 27.00329927312787}
+{"operators": {"city": "==", "avg_rain_procentage": "<=", "avg_temperature": "<="}, "stationid": 36, "city": "Buzau", "avg_rain_procentage": 15.229305877782146, "avg_temperature": -2.7142807735617405}
+{"operators": {"city": "==", "avg_rain_procentage": "<", "avg_wind_speed": ">=", "avg_temperature": ">"}, "stationid": 37, "city": "Piatra Neamt", "avg_rain_procentage": 31.290389400273305, "avg_wind_speed": 43.31074079799936, "avg_temperature": -5.492647892247722}
+{"operators": {"city": "==", "avg_wind_speed": ">", "avg_temperature": ">"}, "stationid": 38, "city": "Miercurea Ciuc", "avg_wind_speed": 29.7061264362794, "avg_temperature": 0.5219407033393448}
+{"operators": {"city": "!=", "avg_rain_procentage": "<="}, "stationid": 39, "city": "Bistrita", "avg_rain_procentage": 43.92240352683173}
+{"operators": {"city": "==", "avg_rain_procentage": ">", "avg_wind_speed": "<", "avg_temperature": ">="}, "stationid": 40, "city": "Calarasi", "avg_rain_procentage": 6.330701557812257, "avg_wind_speed": 1.249126927081604, "avg_temperature": -8.938313978869301}
+{"operators": {"city": "!=", "avg_temperature": "<", "avg_rain_procentage": ">=", "avg_wind_speed": ">="}, "stationid": 41, "city": "Galati", "avg_temperature": -7.1647714547825085, "avg_rain_procentage": 13.525955106015658, "avg_wind_speed": 31.886524306889722}
+{"operators": {"city": "==", "avg_rain_procentage": "<="}, "stationid": 42, "city": "Miercurea Ciuc", "avg_rain_procentage": 11.682633125855679}
+{"operators": {"city": "==", "avg_wind_speed": "<="}, "stationid": 43, "city": "Calarasi", "avg_wind_speed": 13.226045786715995}
+{"operators": {"city": "!=", "avg_rain_procentage": "<=", "avg_wind_speed": "<", "avg_temperature": "<"}, "stationid": 44, "city": "Targoviste", "avg_rain_procentage": 16.661221401758507, "avg_wind_speed": 37.768978162791576, "avg_temperature": -2.0654935861564914}
+{"operators": {"city": "!=", "avg_temperature": "<", "avg_wind_speed": "<="}, "stationid": 45, "city": "Cluj-Napoca", "avg_temperature": 9.554755326169168, "avg_wind_speed": 2.2029076924345175}
+{"operators": {"city": "!=", "avg_temperature": ">="}, "stationid": 46, "city": "Targu Mures", "avg_temperature": 0.14354927992822297}
+{"operators": {"city": "!=", "avg_temperature": "<=", "avg_wind_speed": ">"}, "stationid": 47, "city": "Suceava", "avg_temperature": 15.757068488576486, "avg_wind_speed": 6.943257177390604}
+{"operators": {"city": "==", "avg_wind_speed": ">=", "avg_temperature": "<"}, "stationid": 48, "city": "Satu Mare", "avg_wind_speed": 8.90426578590293, "avg_temperature": 1.140618863976874}
+{"operators": {"city": "!=", "avg_temperature": "<"}, "stationid": 49, "city": "Suceava", "avg_temperature": 18.956323374176716}
+{"operators": {"city": "==", "avg_rain_procentage": "<=", "avg_temperature": ">="}, "stationid": 50, "city": "Bistrita", "avg_rain_procentage": 11.003979473893926, "avg_temperature": -6.683404081010028}

@@ -48,7 +48,7 @@ while (True):
         nr_subs = int(input("Number of complex subs to be generated:"))
         complex_subs = generateComplexSubs(nr_subs)
         
-        channel.basic_publish(exchange='', routing_key='complex subs', body=json.dumps(simple_subs, indent=1))
+        channel.basic_publish(exchange='', routing_key='complex subs', body=json.dumps(complex_subs, indent=1))
         print("Complex subscriptions sent to broker successfully")
         
         channel.basic_consume(queue='filtered pubs', on_message_callback=get_selected_pubs, auto_ack=True)

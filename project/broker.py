@@ -24,12 +24,12 @@ with open('results/publications.json') as f:
 f = open('results/subscription.json', 'w')
     
 def get_subs(ch, method, properties, body):
-    # channel.stop_consuming()
+    channel.stop_consuming()
     with open('results/subscription.json', 'w')as f:
         f.write(body.decode())
         
 def get_complex_subs(ch, method, properties, body):
-    # channel.stop_consuming()
+    channel.stop_consuming()
     with open('results/complexsubscription.json', 'w')as f:
         f.write(body.decode())
 
@@ -42,9 +42,6 @@ selected_subs = {}
 while(True):
     command = input("Choose a command:")
     if command == 'simple filter':
-        
-        channel.basic_consume(queue='simple sub ack', on_message_callback=callback, auto_ack=True)
-        channel.start_consuming()
         
         selected_pubs = []
         
