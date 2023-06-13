@@ -1,6 +1,6 @@
 import argparse, json, random
 
-PUB_WINDOW = 5
+PUB_WINDOW = 10
 
 
 def writeResult(matching,file_name):

@@ -1,4 +1,4 @@
-import pika, json
+import pika, json, time
 from datetime import datetime
 from matching import generateMatchingOneSubscription, generateMatchingOneComplexSubscription
 
@@ -45,6 +45,7 @@ while(True):
         
         selected_pubs = []
         
+        start = time.time()
         channel.basic_consume(queue='simple subs', on_message_callback=get_subs, auto_ack=True)
         channel.start_consuming()
         
@@ -56,11 +57,13 @@ while(True):
         print("Publications filtered successfully")
         channel.basic_publish(exchange='notifications', routing_key='', body='{} : A broker node has filtered the collection of pubs.\n'.format(datetime.now()))
         channel.basic_publish(exchange='', routing_key='filtered pubs', body=json.dumps(selected_pubs, indent=1))
+        print("Filtered pubs finally published: {}".format(time.time() - start))
     
     elif command == 'complex filter':
         
         selected_pubs = []
         
+        start = time.time()
         channel.basic_consume(queue='complex subs', on_message_callback=get_complex_subs, auto_ack=True)
         channel.start_consuming()
         
@@ -72,6 +75,7 @@ while(True):
         print("Publications filtered successfully")
         channel.basic_publish(exchange='notifications', routing_key='', body='{} : A broker node has filtered the collection of pubs.\n'.format(datetime.now()))
         channel.basic_publish(exchange='', routing_key='filtered pubs', body=json.dumps(selected_pubs, indent=1))
+        print("Filtered pubs finally published: {}".format(time.time() - start))
         
     elif command == 'quit':
         print("Broker exiting the server...")

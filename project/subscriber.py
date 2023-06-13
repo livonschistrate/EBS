@@ -1,4 +1,4 @@
-import pika, json
+import pika, json, time
 from publish import generatePubs
 from subscribe import generateSubs
 from complexsubscribe import generateComplexSubs
@@ -26,13 +26,14 @@ def callback(ch, method, properties, body):
         print("Received message:", body.decode())
         
 def get_selected_pubs(ch, method, properties, body):
-    channel.stop_consuming()
     with open('results/filtered_pubs.json', 'w')as f:
         f.write(body.decode())
+    channel.stop_consuming()
 
 while (True):
     command = input("Choose a command:")
     if command == 'simple sub':
+        start = time.time()
         nr_subs = int(input("Number of simple subs to be generated:"))
         simple_subs = generateSubs(nr_subs)
         
@@ -42,9 +43,10 @@ while (True):
         channel.basic_consume(queue='filtered pubs', on_message_callback=get_selected_pubs, auto_ack=True)
         channel.start_consuming()
         print("Selected publications successfully arrived - see it on filtered pubs file")
+        print("Time:", time.time() - start)
         
     elif command == 'complex sub':
-        complex_subs = {}
+        start = time.time()
         nr_subs = int(input("Number of complex subs to be generated:"))
         complex_subs = generateComplexSubs(nr_subs)
         
@@ -54,6 +56,7 @@ while (True):
         channel.basic_consume(queue='filtered pubs', on_message_callback=get_selected_pubs, auto_ack=True)
         channel.start_consuming()
         print("Selected publications successfully arrived - see it on filtered pubs file")
+        print("Time:", time.time() - start)
         
     elif command == 'notifs':
         channel.basic_publish(exchange='', routing_key='notifs', body='stop')
